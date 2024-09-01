@@ -1,0 +1,32 @@
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro ~ % 
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro ~ % cd workspace
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro workspace % cd git_challenge
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git init
+Reinitialized existing Git repository in /Users/moribayashitakayuki/workspace/git_challenge/.git/
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git add .
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   hello_world.txt
+
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) 9b49878] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git add .
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   hello_world.txt
+
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git commit -m"日本語訳を追記"
+[main 8823c74] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+moribayashitakayuki@moribayashitakayukinoMacBook-Pro git_challenge % git log --oneline
+8823c74 (HEAD -> main) 日本語訳を追記
+9b49878 hello_world.txtを追加
